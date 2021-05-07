@@ -22,6 +22,7 @@
     - [Install tomcat using Helm 3 by pullin locally its Chart](#install-tomcat-using-helm-3-by-pullin-locally-its-chart)
     - [Install Mysql](#install-mysql)
     - [Install Metrics-server](#install-metrics-server)
+- [Helm Chart for th Bookstore Full Stack App](#helm-chart-for-th-bookstore-full-stack-app)
 
 
 
@@ -522,3 +523,8 @@ Open `my-metrics.values` and perform  the following two changes:
   ```shell
   kubectl top nodes
   ```
+## Helm Chart for th Bookstore Full Stack App
+
+Implement an Helm 3 Chart for the Bookstore App.
+
+The solution is provided in Folder `bookstore-fullstack-on-kubernetes`. Install the chart and test it.
